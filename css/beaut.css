@@ -1,0 +1,47 @@
+body {
+    background-color: rgb(115, 188, 236);
+}
+.container {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    
+}
+.good {
+    height: 160px;
+    width: 190px;
+    background-color: rgb(234, 255, 44);
+    border: 1px solid grey;
+    margin-right: 20px;
+}
+.item {
+    text-align: center;
+}
+.add {
+    margin-left: 40px;
+}
+.sum {
+    display: flex;
+    justify-content: flex-start;
+    background-color: rgb(217, 231, 90);
+    border: 1px solid grey;
+    width: 34%;
+    margin: 20px auto;
+    padding: 5px;   
+}
+.sum .price {
+    margin:  0 117px;
+}
+.pcs {
+    display: flex;
+}
+.minus,
+.plus {
+    border-radius: 50%;
+}
+.N {
+    margin: 6px;
+}
+#buy {
+    margin-left: 50%;
+}

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>SHOP</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="styessheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/fonts/glyphicons-halflings-regular.eot">
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/beaut.css"> 
+</head>
+<body>
+    <div class="container">
+        <div class="good">
+            <h1 class="item">Sushi</h1>
+            <h3 class="item">100 rub. </h3>
+            <button type="button" id="add1" class="btn add btn-success">Add to order </button>
+        </div>
+        <div class="good">
+            <h1 class="item">Pizza</h1>
+            <h3 class="item">250 rub. </h3>
+            <button type="button" id="add2" class="btn add btn-success">Add to order </button>
+            </div>
+        <div class="good">
+            <h1 class="item">Hot-dog</h1>
+            <h3 class="item">90 rub. </h3>
+            <button type="button" id="add3" class="btn  add btn-success">Add to order </button>
+            </div>
+        <div class="good">
+            <h1 class="item">Gamburger</h1>
+            <h3 class="item">80 rub. </h3>
+            <button type="button" id="add4" class="btn  add btn-success">Add to order </button>
+            </div>
+        <div class="good">
+            <h1 class="item">Coca-cola</h1>
+            <h3 class="item">50 rub. </h3>
+            <button type="button" id="add5" class="btn   add btn-success">Add to order </button>
+            </div>
+    </div>
+    <div class="order" id="order">
+        <div class="container sum" id="sum">
+            <div class="none item"></div>
+            <div class="none price"></div>
+            <div class="pcs">
+                <button type="button" id="minus" class="btn btn-info minus">-</button>
+                <div class="N" id="num">0</div>
+                <button type="button" id="plus" class="btn btn-info plus">+</button>
+            </div>
+        </div>
+        
+    </div>   
+    
+    <button type="button" id="buy" class="btn btn-warning">BUY</button>
+</body>
+<script src="js/level.js"></script>
+</html>
